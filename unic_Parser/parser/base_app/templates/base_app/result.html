@@ -1,0 +1,18 @@
+<h2>Результаты парсинга</h2>
+
+{% if data %}
+
+	<ul>
+		{% for item in data %}
+			<li>{{ item }}</li>
+		{% endfor %}
+
+	</ul>
+
+{% else %}
+	<p>Нет данных для отображения</p>
+
+{% endif %}
+
+<a href="{% url 'choose_method' %}">Назад к выбору метода</a>
+

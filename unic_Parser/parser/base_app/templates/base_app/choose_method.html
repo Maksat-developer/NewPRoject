@@ -1,0 +1,7 @@
+<h2>Выберите метод парсинга</h2>
+
+<form action="" method="POST">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<button type="submit">Выбрать</button>
+</form>
