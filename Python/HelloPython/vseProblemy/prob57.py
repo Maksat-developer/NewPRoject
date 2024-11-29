@@ -1,0 +1,8 @@
+name =('MacBook Air (M1, 2020)')
+print(name)
+b =('Apple M1')
+print(b)
+ozu =int(input('6 ГБ'))
+print(ozu)
+sernom = int(input('C02GJ11WQ6LR'))
+print(sernom)

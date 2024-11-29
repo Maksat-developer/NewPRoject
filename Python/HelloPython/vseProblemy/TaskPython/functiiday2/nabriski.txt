@@ -1,0 +1,20 @@
+
+def dict2(*args,**kwargs):
+
+    my_list2 = []
+    if kwargs:
+        print('this argument', kwargs)
+        my_list2.append('nmae2')
+def deict('maks': 'kydyrov')
+
+deict()
+
+
+i = input('')
+def counter(a):
+count = 0
+for ii in a:
+count +=1
+print('fdsfs')
+
+counter

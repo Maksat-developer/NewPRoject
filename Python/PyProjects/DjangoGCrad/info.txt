@@ -1,0 +1,6 @@
+user name: user
+password: kalilinuxother
+
+pythonanywhere
+user name: user2
+password: kalilinuxother
