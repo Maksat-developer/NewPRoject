@@ -1,18 +1,7 @@
-motorcycles = ['honda', 'yamaha', 'suzuki']
+nums = [1, 2, 3, True, 'Hello World!', 3.5]
 
-new_data = 'ducati'
-motorcycles.append(new_data)
-print(motorcycles)
-
-first_data = 'BMW'
-motorcycles.insert(0, first_data)
-print(motorcycles)
-
-del motorcycles[0]
-del motorcycles[1]
-print(motorcycles)
-
-
+nums[3] = False
+print(nums)
 
 
 

@@ -12,24 +12,23 @@ int main()
   char* ptr_ch = nullptr; // указатель 0 го значения nullptr;
   void* ptr = 0L;
 
-  ptr_int = (int *)ptr;
+  // ptr_int = (int *)ptr;
+
+  cout << "Edex UI" << endl;
 
 
-  ptr_ch = (char *)ptr_int;
+  //ptr_ch = (char *)ptr_int;
 
-  printf("%p\n", ptr_ch);
+  //printf("%p\n", ptr_ch);
   
-  cout << ptr_ch << endl;
+  // cout << ptr_ch << endl;
 
-  cout << ptr_int << endl;
+  // cout << ptr_int << endl;
 
-  cout << ptr << endl;
+  // cout << ptr << endl;
 
-  cout << ptr_int << endl;
-
+  // cout << ptr_int << endl;
 
 
   return 0;
-
-
 }
