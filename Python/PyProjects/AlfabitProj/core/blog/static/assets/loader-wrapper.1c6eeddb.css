@@ -1,0 +1,1 @@
+.loader-wrapper[data-v-cf48148d]{position:relative;width:100%;opacity:1;transition:opacity .3s}.loader-wrapper--loading[data-v-cf48148d]{opacity:.3;pointer-events:none!important;user-select:none}.loader-wrapper__spinner[data-v-cf48148d]{position:absolute;top:calc(50% - var(--spinner-size) / 2);left:calc(50% - var(--spinner-size) / 2);--spinner-color: #8A55E9;--spinner-size: 32px}

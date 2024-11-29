@@ -1,0 +1,35 @@
+version: '3'
+services:
+    web:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      command: python3 manage.py runserver 0.0.0.0:8000
+      volumes:
+        - .:/app
+      ports:
+        - 8000:8000
+      depends_on:
+        - db
+      networks:
+        - mynetwork  # Add this line
+    db:
+      image: postgres:12
+      environment:
+        - POSTGRES_DB=alfabitdb
+        - POSTGRES_USER=alfa
+        - POSTGRES_PASSWORD=alfabitpswd1
+      networks:
+        - mynetwork  # Add this line
+
+    nginx: 
+      build: ./nginx
+      ports:
+        - 80:80
+      depends_on:
+        - web
+      networks:
+        - mynetwork  # Add this line
+
+networks:  # Add the custom network definition
+  mynetwork:

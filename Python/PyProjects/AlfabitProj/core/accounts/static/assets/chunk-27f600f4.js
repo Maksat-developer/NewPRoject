@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as n,q as o}from"./chunk-e8d35fff.js";const s={name:"AuthLayout"};function _(e,c,r,u,l,d){return t(),n("main",null,[o(e.$slots,"default",{},void 0,!0)])}const f=a(s,[["render",_],["__scopeId","data-v-8e0aa586"]]);export{f as c};

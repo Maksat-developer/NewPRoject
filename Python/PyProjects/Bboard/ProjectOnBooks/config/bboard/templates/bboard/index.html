@@ -1,0 +1,17 @@
+{% extends 'layout/base.html' %}
+{% block content %}
+<div>
+    {% for rubric in rubrics %}
+    <a href="{% url 'by_rubric' rubric.pk %}">{{ rubric.name }}</a>
+    {% endfor %}
+</div>
+
+{% for bb in bbs %}
+<div>
+    <li>{{ bb.title }} - <a href="{% url 'delete' bb.pk %}">Удалить</a></li>
+    <p>{{ bb.content }}</p>
+    <p>{{ bb.published|date:"d.m.Y H:i:s" }}</p>
+</div>
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* Таким образом можно обращаться к
+о всем сторонам и менять их */
+
+/* "*" {
+    padding: 0;
+} */
+
+
+/* Это фиолетовый кружок который будет с тобой путешествовать  */
+/* 
+.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 20px;
+    height: 300px;
+   
+  
+
+}
+
+.box { 
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    /* bottom: 0px; */
+
+    /* bottom: 0px; */
+    /* position: absolute; */
+    /* width: 50px;
+    height: 50px;
+    background: rgb(121, 3, 255);
+      
+} *
+
+
+
+
+
+body {
+    background-color: rgb(208, 222, 224);
+    margin: auto;
+    color: #141414;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    /* font:normal 16px; */
+
+/* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+/* Дэкор при наведении на кнопку */
+a:hover{
+    text-decoration: underline;
+}
+/* Дэкор при нажатии и удерживании кнопки  */
+a:active {
+    color: blue;
+}
+/* Подсвечивает посещение кнопки */
+a:visited {
+    color: rgba(47, 2, 247, 0.034);
+}
+
+
+
+.container {
+    max-width: 750px;
+    /* margin: auto; */
+    padding: 25px;
+    margin-left: 100px;
+
+}
+.myphoto {
+    width: 250px;
+    border-radius: 50px;
+    box-shadow: 30px 30px 30px rgba(rgb(12, 12, 12), rgb(10, 10, 10), rgb(21, 21, 22), alpha);
+}
+
+.bg_yellow {
+background-color: darkgoldenrod;
+    margin-left: 100px;
+}
+
+.bg_blue {
+    background-color: white;
+    margin-left: 100px;
+}
+
+
+.bg_red {
+    background-color: darksalmon;
+    margin-left: 100px;
+}
+
+.card {
+    
+    padding: 15px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+@media (max_width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+    
+}
+
+ 
+.card h2{
+    margin-bottom: 10px;
+}
+
+/* Это хобби */
+.hobbi {
+  margin-left: 100px;
+}
+
+.hobbi li{
+    color: rgba(253, 0, 0, 0.493);
+    margin-bottom: 10px;
+
+    /* Черная полоса которая по списку разделяет */
+     /* border-bottom: 1px solid rgb(0, 0, 0); */
+}
+
+
+/* Обращаемся к тексту рядом с фоткой */
+.info-text {
+    margin-left: none;
+   
+}
+
+.info-text h4 {
+    margin-left: 20px;
+    color: black;
+}
+
+
+/* Обращение к опыту работы  */
+
+.table{
+
+    width: 100%;
+
+}
+
+.glava th {
+   padding: 50px;
+}
+.table td {
+    padding-bottom: 10px;
+
+}
+.table td:nth-child(2), .table td:nth-child(3){
+    color: silver;
+
+}
+
+/* Четная строчка "even" */
+/* Не четная строчка "odd" */
+.table tr:nth-child(odd) {
+    background-color: slategrey;
+}
+/* Расположение "Связаться сомной" её регулирует метод "text-align" */
+.contact  h2 {
+    text-align: center;
+}
+
+.group_gam label {
+    display: block;
+    font-size: 14px;
+    color: darkblue;
+}
+
+.group_gam input,
+.group_gam textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    color: rgb(77, 73, 73);
+    border-bottom: 1px solid rgb(56, 54, 54);
+    padding-top: 10px;
+    padding-left: 5px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+
+/* 1 > способ убрать с правой стороны все не нужные пиксиля */
+.row > .group_gam {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .group_gam:first-child {
+    margin-right: 20px;
+
+}
+
+.group_gam > label{
+    margin-left: 100px;
+}
+
+/* 2 > способ убрать с правой стороны все не нужные пиксиля */
+
+/* .row > .group_gam {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .group_gam:first-child {
+    margin-right: 20px;
+
+} */
+
+
+/* Образаемся к кнопке "" */
+.buttom_style {
+    color: white;
+    background: black;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+/* " opacity: 0.9;" интерактивно меняеться клик стрелки */
+.buttom_style:hover{
+    opacity: 0.9;
+}
+
+/* .info p {
+    color: #868986;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal; */
+    /* word-spacing: 5px; *}/
+
+
+/* .socia color: slategray; */
+    /* padding: 15px; */
+    /* padding: 15px 35px; */
+    /* padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40;
+    border: 10px solid rgb(106, 82, 117);
+    margin: 15px; */
+    /* border-bottom-style: dotted;
+    border-top-style: dotted;
+    border-left-style: dotted;
+    border-right-style: dotted; */
+    /* border-top-width: 15px;
+    border-left-width: 20px;
+    border-right-width: 7px;
+
+
+} */
+
+
+
+
+
+
+.box_model > div {
+
+}

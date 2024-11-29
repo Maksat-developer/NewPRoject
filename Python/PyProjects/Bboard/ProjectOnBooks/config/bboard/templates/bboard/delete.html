@@ -1,0 +1,21 @@
+{% extends 'layout/base.html' %}
+{% block content %}
+<title></title>
+</head>
+
+<body>
+
+    <p>are you sure you want to delete the "{{ object }}"?</p>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="submit" value="confirm">
+       
+    </form>
+
+    <a href="{% url 'index' %}">Cancel</a>
+
+</body>
+
+</html>
+
+{% endblock %}

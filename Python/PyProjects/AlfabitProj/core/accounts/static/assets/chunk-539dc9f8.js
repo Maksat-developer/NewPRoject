@@ -1,0 +1,1 @@
+import{e as a}from"./chunk-b247637b.js";const n=async({rate:e,name:s,message:t},i)=>await a().post(`/review/add/${i}`,{rating:e,user_name:s,meassage:t}),o=async function(e=1){return await a().get(`/reviews/${e}`)},w=async e=>await a().get(`/reviews/exist/${e}`).then(({result:s})=>s);export{n as a,o as g,w as r};

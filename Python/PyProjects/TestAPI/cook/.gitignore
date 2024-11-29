@@ -1,0 +1,4 @@
+db.sqlite.sql
+venv/
+.env
+.vscode/

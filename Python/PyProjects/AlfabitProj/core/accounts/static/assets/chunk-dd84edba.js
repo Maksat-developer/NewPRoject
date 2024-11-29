@@ -1,0 +1,1 @@
+import{h as i,j as g,s as e}from"./chunk-b247637b.js";import{B as m}from"./chunk-e8d35fff.js";const S=()=>{const s=i(),o=g(),{isLoggedIn:t}=e(o),{user:r}=e(s),{login:n,logout:u,register:a,details:c}=s;return{user:m(()=>r.value),isLoggedIn:t,details:c,login:n,logout:u,register:a}};export{S as u};

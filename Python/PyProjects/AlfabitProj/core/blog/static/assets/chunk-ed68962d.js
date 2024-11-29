@@ -1,0 +1,1 @@
+import{i as e,aP as t}from"./chunk-e8d35fff.js";const f=u=>{const a=e(!1),l=e(!1),s=e(null),n=async(...o)=>{try{a.value=!0,l.value=!1,s.value=await u(...o)}catch(r){throw l.value=!0,r}finally{a.value=!1}};return{loading:t(a),result:t(s),load:n}};export{f as u};
