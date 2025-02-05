@@ -1,16 +1,25 @@
-nums = [1, 2, 3, True, 'Hello World!', 3.5]
+PEOPLE = [
+    {"first": "Reuven", "last": "Lerner", "email": "reuven@lerner.co.il"},
+    {"first": "Donald", "last": "Trump", "email": "president@whitehouse.gov"},
+    {"first": "Vladimir", "last": "Putin", "email": "president@kremvax.ru"}
+]
 
-nums[3] = False
-print(nums)
+"""В любом случае, напишите функцию alphabetize_names,
+которая предполагает существование константы PEOPLE, опре-
+деленной, как показано в коде. Функция должна возвращать спи-
+сок словарей, отсортированных по фамилии и имени.
+"""
 
 
+def sort_key(person):
+    return (person['last'], person['first'])
 
+def alphabetize_names(people):
+    return sorted(people, key=sort_key)
 
+print(alphabetize_names(PEOPLE))
 
-
-
-
-
+    
 
 
 
