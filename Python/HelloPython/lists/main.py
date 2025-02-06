@@ -1,8 +1,8 @@
-PEOPLE = [
-    {"first": "Reuven", "last": "Lerner", "email": "reuven@lerner.co.il"},
-    {"first": "Donald", "last": "Trump", "email": "president@whitehouse.gov"},
-    {"first": "Vladimir", "last": "Putin", "email": "president@kremvax.ru"}
-]
+# PEOPLE = [
+#     {"first": "Reuven", "last": "Lerner", "email": "reuven@lerner.co.il"},
+#     {"first": "Donald", "last": "Trump", "email": "president@whitehouse.gov"},
+#     {"first": "Vladimir", "last": "Putin", "email": "president@kremvax.ru"}
+# ]
 
 """В любом случае, напишите функцию alphabetize_names,
 которая предполагает существование константы PEOPLE, опре-
@@ -11,13 +11,13 @@ PEOPLE = [
 """
 
 
-def sort_key(person):
-    return (person['last'], person['first'])
+# def sort_key(person):
+#     return (person['last'], person['first'])
 
-def alphabetize_names(people):
-    return sorted(people, key=sort_key)
+# def alphabetize_names(people):
+#     return sorted(people, key=sort_key)
 
-print(alphabetize_names(PEOPLE))
+# print(alphabetize_names(PEOPLE))
 
     
 
