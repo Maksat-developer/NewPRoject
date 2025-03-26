@@ -1,0 +1,37 @@
+p.text:not(:empty) {
+    color: gold;
+}
+
+
+
+
+.main-link {
+    color: red;
+    text-decoration: none;
+
+}
+.main-link:hover {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: red;
+    cursor:pointer;
+
+
+}
+
+
+.main-link:active {
+    text-decoration: line-through;
+}
+
+
+.main-link:visited {
+    color: grey;
+ }
+
+
+input:disabled {
+}
+
+input {color: blue;}
+input:focus {color: red;}
